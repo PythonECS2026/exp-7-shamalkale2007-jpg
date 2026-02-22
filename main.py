@@ -43,15 +43,16 @@ students_records[uin] = {
     "grade": grade,
     "attendance": attendance
 }
-# TODO: Update the Grade of Student of UIN 251P055
+# TODO: Update the Grade of Student of UIN 251P005
 update_uin = input("Enter UIN to Update: ")
 new_grade = input("Enter New Grade of Student: ")
 students_records[update_uin]["grade"] = new_grade
-# TODO: Remove Student with UIN 251P026
+# TODO: Remove Student with UIN 251P055
 delete_uin = input("Enter UIN of the Student to Delete: ")
 delete students_records[delete_uin]e your code here
 
 # Stop coding here
 print(f"Final Student Records: {students_records}")
+
 
 
